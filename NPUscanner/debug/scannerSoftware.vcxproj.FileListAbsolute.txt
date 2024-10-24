@@ -1,1 +1,2 @@
 D:\study\Code\C++class\NPUscanner\frontSide\scannerSoftware\debug\scannerSoftware.exe
+D:\study\Code\C++class\NPUscanner\NPUscanner\debug\scannerSoftware.exe

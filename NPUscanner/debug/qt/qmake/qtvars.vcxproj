@@ -33,7 +33,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|x64&apos;">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\study\Code\C++class\NPUscanner\frontSide\scannerSoftware\debug\qt\qmake;D:\study\QT\6.7.2\msvc2019_64\include;D:\study\QT\6.7.2\msvc2019_64\include\QtWidgets;D:\study\QT\6.7.2\msvc2019_64\include\QtGui;D:\study\QT\6.7.2\msvc2019_64\include\QtCore;D:\study\Code\C++class\NPUscanner\frontSide\scannerSoftware\debug\qt\qmake;/include;D:\study\QT\6.7.2\msvc2019_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\study\Code\C++class\NPUscanner\NPUscanner\debug\qt\qmake;D:\study\QT\6.7.2\msvc2019_64\include;D:\study\QT\6.7.2\msvc2019_64\include\QtWidgets;D:\study\QT\6.7.2\msvc2019_64\include\QtGui;D:\study\QT\6.7.2\msvc2019_64\include\QtCore;D:\study\Code\C++class\NPUscanner\NPUscanner\debug\qt\qmake;/include;D:\study\QT\6.7.2\msvc2019_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -utf-8 %(AdditionalOptions)</AdditionalOptions>
       <AssemblerListingLocation>.\</AssemblerListingLocation>
       <BrowseInformation>false</BrowseInformation>
