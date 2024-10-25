@@ -16,13 +16,14 @@ MainWindow::MainWindow(QWidget *parent)
     //palette.setBrush(backgroundRole(), QBrush(pixmap));
     //setPalette(palette);
 
-    // 设置背景图片
+    // 设置textOutput的背景
     ui->textOutput->setStyleSheet("QTextBrowser { background-image: url('./ico/background.jpg'); "
         "background-repeat: no-repeat; "
         "background-position: center; }");
-    //ui->textOutput->setStyleSheet("QTextBrowser { color: white; }"); // 将字体颜色设置为白色
+
     // 添加一些文本内容
     ui->textOutput->setText("Hello, World! This is a QTextBrowser with a background image.");
+
 
     //连接button和slot
     connect(ui->runpy_pushButton, SIGNAL(clicked(bool)), this, SLOT(runPythonScript()));
@@ -46,7 +47,9 @@ void MainWindow::runPythonScript(void)
     // 设置要执行的 Python 脚本和参数
     QString scriptPath = "./py/vuln_scan.py"; // Python 脚本路径
     QStringList arguments;                    // 参数列表
-    arguments << "10.12.13.30";            // 添加你的参数
+    //获取输入的ip
+    arguments << ui->lineEdit->text();
+    //arguments << "10.12.13.30";            // 添加你的参数
 
     // 启动 Python 进程并传递参数
     process->start("python", QStringList() << scriptPath << arguments);

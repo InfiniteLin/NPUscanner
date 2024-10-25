@@ -1,6 +1,5 @@
 ﻿   Qt/MSBuild: 3.3.0.13
   Reading Qt configuration (D:/study/QT/6.7.2/msvc2019_64/bin/qmake)
    Qt: 6.7.2
-  main.cpp
-  moc_mainwindow.cpp
+  mainwindow.cpp
   scannerSoftware.vcxproj -> D:\study\Code\C++class\NPUscanner\NPUscanner\debug\scannerSoftware.exe
